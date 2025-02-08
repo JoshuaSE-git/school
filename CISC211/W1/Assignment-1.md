@@ -24,13 +24,6 @@
    
    After encryption: `00011010 00001100 00001101 00010001 00001110 00000000`
    
-   Here's a horizontal representation of the XOR operation. I highlighted the bits which will be XOR'd.
-
-	011**10**1**1**0 0110**01**01 0110**00**1**1** 011**1**010**0** 0110**111**1 01110010 - message
-	011**01**1**0**0 0110**10**01 0110**11**1**0** 011**0**010**1** 0110**000**1 01110010 - key
-	
-	000**11**0**1**0 0000**11**00 0000**11**0**1** 000**1**000**1** 0000**111**0 00000000 - encrypted message
-   
 
 6) Convert encrypted binary message to hexadecimal for easy sharing
 
