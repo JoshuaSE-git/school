@@ -94,3 +94,6 @@ A more secure way of handling varying key/message lengths would be to truncate t
 
 **A2)** The lab itself was fairly straightforward to design and implement. However, the question about varying key/message lengths was challenging to think about. I came to the solution of "zero-padding" the shorter of the two, but quickly realized this would be an insecure encryption. After googling, I came across the repeating key method which I wrote about in my answer above.
 
+![W1A](https://github.com/user-attachments/assets/246e45fd-4657-47ff-9f38-3f104acee1c2)
+
+![Screenshot 2025-02-08 at 2 55 35 PM](https://github.com/user-attachments/assets/53e76d17-1d1b-4e56-8872-7bed517a6ca8)
