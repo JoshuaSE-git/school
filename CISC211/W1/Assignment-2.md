@@ -13,3 +13,5 @@
  *Note: I added `20` because that is the hx code for "space" in ASCII*
 
 **Birth Year:** `11111010001`
+
+![Screenshot 2025-02-08 at 3 24 38 PM](https://github.com/user-attachments/assets/c9d1c38a-c2d2-4f6b-833d-25bb0ca0636b)
