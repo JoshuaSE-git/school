@@ -2,3 +2,5 @@
 **/*.bluej
 **/*.DS_Store
 **/*.ctxt
+./CISC211/playground/
+**/docs/

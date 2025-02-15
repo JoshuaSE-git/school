@@ -1,0 +1,4 @@
+The value of x is: 1.23456789E204
+The value of y is: 8.10000007371E-205
+The value of z is: 0.9999999999999999
+The value of 1 - z is: 1.1102230246251565E-16
