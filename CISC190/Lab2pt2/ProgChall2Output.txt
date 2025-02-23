@@ -1,0 +1,7 @@
+Enter your first name: Joshua
+Enter your middle name: Sebastian
+Enter your last name: Emralino
+
+My name is: Joshua Sebastian Emralino
+My initials are: JSE
+

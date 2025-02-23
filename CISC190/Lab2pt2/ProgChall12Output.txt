@@ -1,0 +1,7 @@
+Enter a city: San Diego
+
+The city entered has: 9 chars
+In upper case: SAN DIEGO
+In lower case: san diego
+First character: S
+

@@ -1,0 +1,6 @@
+Enter meal amount: $25.50
+
+The tax is: $1.72
+The tip is: $5.10
+The meal cost with tax and tip is: $32.32
+
