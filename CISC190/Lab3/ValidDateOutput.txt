@@ -1,0 +1,24 @@
+Enter a date in MM/DD/YYYY format: 2/29/2000
+2/29/2000 is a valid date.
+
+Enter a date in MM/DD/YYYY format: 2/29/1900
+2/29/1900 is not a valid date.  Can not have 29 or more days in a non-leap year.
+
+Enter a date in MM/DD/YYYY format: 2/29/2020
+2/29/2020 is a valid date.
+
+Enter a date in MM/DD/YYYY format: 4/31/2021
+4/31/2021 is not a valid date.  Can not have 31 days for this month.
+
+Enter a date in MM/DD/YYYY format: 4/15/2021
+4/15/2021 is a valid date.
+
+Enter a date in MM/DD/YYYY format: 7/25/2021
+7/25/2021 is a valid date.
+
+Enter a date in MM/DD/YYYY format: 5/32/2013
+5/32/2013 is not a valid date.  Can never have more than 31 days in a month.
+
+Enter a date in MM/DD/YYYY format: 13/13/2013
+13/13/2013 is not a valid date.  Months must be between 1 and 12.
+

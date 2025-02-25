@@ -1,0 +1,18 @@
+Enter the first number: 3
+Enter the second number: 2
+Enter the third number: 1
+
+low = 1 med = 2 high = 3
+
+Enter the first number: 2
+Enter the second number: 3
+Enter the third number: 1
+
+low = 1 med = 2 high = 3
+
+Enter the first number: 1
+Enter the second number: 3
+Enter the third number: 2
+
+low = 1 med = 2 high = 3
+
