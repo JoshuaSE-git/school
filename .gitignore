@@ -6,3 +6,5 @@
 **/docs/
 **/playground/
 **/sandbox/
+./CISC211/*.o
+./CISC211/*.sh
