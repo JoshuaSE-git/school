@@ -1,4 +1,4 @@
-### W5b - Activity Variables and Constants
+# W5b - Activity Variables and Constants
 
 ## Task
 
@@ -33,4 +33,12 @@ section .data
 
 Q: What were your challenges in performing the lab (from design to the implementation phases)?
 
-A: One thing I found challenging when doing this lab was the data section of my assembly code. I wasn't exactly sure how
+A: Initially, I defined my integer variables using DB (Define Byte), which allocates only 1 byte per variable. This caused issues when attempting to store those values inside the EAX and EBX registers because these registers are 4 bytes wide and expect the same amount of data when using the MOV instruction.
+
+Since my variables were only 1 byte each (DB) and stored next to each other in memory, when I moved the first variable into EAX, the instruction retrieved 4 bytes from memory instead of just 1. This caused EAX to store not only the first variable but also the adjacent memory bytes, which included the second variable and other uninitialized data.
+
+Because of this, arithmetic operations such as ADD EAX, EBX produced incorrect results. The solution was to define my variables as DD (doubleword, 4 bytes) to match the size of EAX, ensuring that each variable occupied exactly the expected space in memory.
+
+## Flowchart
+![image](https://github.com/user-attachments/assets/b48692f3-8825-4726-939d-55cc636f26ae)
+
