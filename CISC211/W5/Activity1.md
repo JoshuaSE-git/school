@@ -1,4 +1,4 @@
-### W5a-Activity First AL program
+# W5a-Activity First AL program
 
 ## Task
 
@@ -38,4 +38,8 @@ section .data
 
 Q: What were your challenges in performing the lab (from design to the implementation phases)?
 
-A: One thing I found challenging when doing this lab was the data section of my assembly code. I wasn't exactly sure how
+A: One thing I found challenging when doing this lab was the data section of my assembly code, I didn't understand how string literals were being stored in memory.  I knew that each character takes up 1 byte, so I was confused as to why we only use DB instead of something bigger to store our message. I later found out that each individual character gets stored in its own memory location, and that our named variable "msg" simply points to the first character in the string literal.  In a way, the line, `msg DB "I came,", 0xA, "I saw,", 0xA, "I conquered.", 0xA`, essentially acts as an "array" builder for characters, with each slot in the array being 1 byte wide.
+
+## Flowchart
+![image](https://github.com/user-attachments/assets/3a0bdbac-4748-4223-a6e1-5e38325de97d)
+
