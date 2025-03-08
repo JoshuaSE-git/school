@@ -4,3 +4,5 @@
 **/*.ctxt
 ./CISC211/playground/
 **/docs/
+**/playground/
+**/sandbox/

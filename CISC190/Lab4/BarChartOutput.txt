@@ -1,0 +1,8 @@
+Number 1 is: 234
+Number 2 is: 67
+Number 3 is: 952
+
+NUMBER BAR CHART
+Number 234 is: **
+Number 67 is: <100 no stars
+Number 952 is: *********

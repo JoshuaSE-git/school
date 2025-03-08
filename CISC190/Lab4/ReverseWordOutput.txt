@@ -1,0 +1,10 @@
+Enter words seperated by a space ending with the word quit:
+smooth jazz java potato chips quit
+
+smooth does not work
+jazz does not work
+java works
+potato works
+chips does not work
+
+Enter yes to process another line: no

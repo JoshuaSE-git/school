@@ -1,0 +1,16 @@
+Enter a whole number, a space, and C or F ie 100 F converts to C: 100 V
+Enter a C or F, F converts to C: F
+
+100F converted is 37.0C
+
+Enter yes to calculate another temp: yes
+Enter a whole number, a space, and C or F ie 100 F converts to C: 212 F
+
+212F converted is 100.0C
+
+Enter yes to calculate another temp: yes
+Enter a whole number, a space, and C or F ie 100 F converts to C: 0 C
+
+0C converted is 32.0F
+
+Enter yes to calculate another temp: no
