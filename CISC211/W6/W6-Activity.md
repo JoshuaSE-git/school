@@ -122,3 +122,12 @@ section .data
   var1 DD 50 ;define var1 size dword value 50
   var2 DD 8 ;define var2 size dword value 8
 ```
+
+## Lab Questions
+
+Q) What were your challenges in performing the lab (from design to the implementation phases)?
+
+A) My main challenge was understanding how the MUL, IMUL, and DIV instructions work. At first, I thought the MUL/IMUL instructions only worked with register operands, but I later found out it was possible to use variables from memory instead. However, when using memory operands, MUL and IMUL need information about the size of the operand, because memory addresses alone don't carry size information—they're just sequences of bytes. To fix this, you explicitly specify the operand size by adding keywords like BYTE, WORD, DWORD, or QWORD to the instruction. This is not necessary when using register operands, because the register itself inherently implies the operand size to the assembler.
+
+![image](https://github.com/user-attachments/assets/dd74cc5a-60e0-4eb4-acce-544817db7de3)
+
