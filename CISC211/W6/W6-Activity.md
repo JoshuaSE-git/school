@@ -11,7 +11,9 @@ Implement the following arithmetic instructions
 
 ## Solutions
 
-### $result = -var1*10$
+### 1) $result = -var1*10$
+
+-115\*10 = -1150
 
 ```assembly
 section .text
@@ -35,7 +37,9 @@ section .data
   var1 DD 115 ;define var1 to be a dword sized value of 115
 ```
 
-### $result = var1+var2+var3+var4$
+### 2) $result = var1+var2+var3+var4$
+
+10+20+30+40 = 100
 
 ```assembly
 section .text
@@ -62,7 +66,9 @@ section .data
   var4 DD 40 ;var4 size dword value 40
 ```
 
-### $result = (-var1*var2)+var3$
+### 3) $result = (-var1*var2)+var3$
+
+(-15\*103)+84 = -1461
 
 ```assembly
 section .text
@@ -88,7 +94,9 @@ section .data
   var3 DD 84 ;define var1 dword size value 15
 ```
 
-### $result = (var1*2)/(var2-3)$
+### 4) $result = (var1*2)/(var2-3)$
+
+(50\*2)/(8-3) = 20
 
 ```assembly
 section .text
