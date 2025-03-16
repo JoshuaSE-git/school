@@ -1,0 +1,6 @@
+Enter a number: 8
+8 is not prime.
+Enter yes to test another number, no to quit: yes
+Enter a number: 19
+19 is prime.
+Enter yes to test another number, no to quit: no

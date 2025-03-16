@@ -110,6 +110,11 @@ public class Grade {
     return filePath;
   }
 
+  /**
+   * Prompts user for output file name/path and returns it as String.
+   *
+   * @return file/name path as String.
+   */
   public static String getOutFile() {
     return JOptionPane.showInputDialog("Enter name of output file (ie output.txt)");
   }

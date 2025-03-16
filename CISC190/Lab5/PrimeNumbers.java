@@ -10,22 +10,27 @@ import java.util.Scanner;
 public class PrimeNumbers {
 
   public static void main(String[] args) {
-
     Scanner input = new Scanner(System.in);
 
     int number;
     boolean isPrime;
+    String userChoice;
 
-    System.out.print("Enter a number: ");
-    number = input.nextInt();
+    do {
+      System.out.print("Enter a number: ");
+      number = input.nextInt();
 
-    isPrime = testForPrime(number);
+      isPrime = testForPrime(number);
 
-    if (isPrime) {
-      System.out.printf("%d is prime.\n", number);
-    } else {
-      System.out.printf("%d is not prime.\n", number);
-    }
+      if (isPrime) {
+        System.out.printf("%d is prime.\n", number);
+      } else {
+        System.out.printf("%d is not prime.\n", number);
+      }
+
+      System.out.print("Enter yes to test another number, no to quit: ");
+      userChoice = input.next().trim();
+    } while (userChoice.equalsIgnoreCase("yes"));
   }
 
   /**
@@ -35,12 +40,12 @@ public class PrimeNumbers {
    * @return boolean result of prime test
    */
   public static boolean testForPrime(int num) {
+    int numSqRt;
 
     if (num == 1) {
       return false;
     }
 
-    int numSqRt;
     numSqRt = (int) Math.sqrt(num);
 
     for (int i = 2; i <= numSqRt; i++) {

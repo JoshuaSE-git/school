@@ -25,8 +25,6 @@ public class FallingDistance {
     for (int i = 1; i <= seconds; i++) {
       printRow(i);
     }
-
-    input.close();
   }
 
   /**
@@ -56,6 +54,6 @@ public class FallingDistance {
    */
   public static void printRow(int seconds) {
 
-    System.out.printf("%-12d%-11.2f\n", seconds, getDistance(seconds));
+    System.out.printf("%-12d%-11.1f\n", seconds, getDistance(seconds));
   }
 }
