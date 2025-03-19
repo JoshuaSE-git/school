@@ -51,4 +51,4 @@ section .data
 ;(184 x 73) + (111 x 462) = 64714
 ```
 
-Note: For mul instruction, I used a size specifier (dword) to specify size
+NOTE: For mul instruction, I used a size specifier (dword) to indicate size of operand.  This is necessary because I'm using a value from memory instead of a register, so the size isn't inherently given.  I wanted to mention this in case you were wondering where I got it from, since the lecture notes only covers register to register for mul/imul.
