@@ -105,6 +105,7 @@ public class Grade {
 
     while (!file.exists()) {
       filePath = JOptionPane.showInputDialog("Enter name of input file (ie input.txt)");
+      file = new File(filePath);
     }
 
     return filePath;
