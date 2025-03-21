@@ -49,7 +49,7 @@ section .data
 
 ### Create a case where you can implement a TEST instruction.
 
-Performs arithmetic operations with eax and checks if result is zero using test instruction.
+Performs arithmetic operations with eax and checks if result is zero using test instruction.  Additionally, it moves value stored in eax to result variable to confirm that test does not override eax register.  Writes even/odd result to stdout.
 
 ```assembly
 section .text
@@ -92,3 +92,9 @@ section .data
   msgOdd db "The number is odd.", 0xA
   lenOdd equ $ - msgOdd
 ```
+
+## Lab Questions
+
+Q) What were your challenges in performing the lab (from design to the implementation phases)?
+
+A) One thing I got stuck on was figuring out how TEST and other logical operators work with the flag registers under the hood.  After utilizing the TEST operation, it was hard to tell what its effect was on the program since it does not override the eax register.  Upon closer inspection in gdb, I noticed that the TEST operation, as well as the other logical operations, modify the eflags register depending on their resulting values.  One of the flags that they modify is called zf (zero flag), and they set this flag to 1 if the resulting value is 0.  Furthermore, the zf flag is what the jz operation checks whenever it is used.  It was interesting to learn that jz doesn't check eax directly, but instead checks the values in the flag register to determine its logical flow.  This explains the use cases for the TEST operation, it allows us to perform the AND operation on EAX and another value without overwriting EAX's value, all while obtaining information on the resulting value via the flags register. 
