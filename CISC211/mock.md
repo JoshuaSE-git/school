@@ -105,13 +105,5 @@ section .bss          ;must use section .bss for uninitialized variables
 - 11101
 
 ### Solution
+![image](https://github.com/user-attachments/assets/b031c447-82f4-4411-bae2-002c5c12f54c)
 
-|Index|V|Tag|Data|
-| 000 |Y|10 |10000|
-| 001 |N|---|-----|
-| 010 |N|---|-----|
-| 011 |N|---|-----|
-| 100 |N|---|-----|
-| 101 |Y|11 |11101|
-| 110 |N|---|-----|
-| 111 |Y|10 |10111|
