@@ -13,6 +13,7 @@ $Mean=Sum of students/number of students$
 |Student 5|65|
 
 ### Solution
+TODO: USE VARS
 
 ```assembly
 section .text
