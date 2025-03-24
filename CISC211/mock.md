@@ -12,7 +12,7 @@ $Mean=Sum of students/number of students$
 |Student 4|40|
 |Student 5|65|
 
-# Solution
+### Solution
 
 ```assembly
 section .text
