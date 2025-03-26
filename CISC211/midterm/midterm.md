@@ -48,6 +48,9 @@ section .data
 ![IMG_0022](https://github.com/user-attachments/assets/fdd330ed-ff79-4892-b076-03cc9787c8da)
 ### GDB Registers
 ![MidtermQ1GDB](https://github.com/user-attachments/assets/bcfb7e52-6f12-4ce8-83b3-493a15a45972)
+### Terminal Output
+![image](https://github.com/user-attachments/assets/6050f965-7294-4d42-95bc-a09950bc7d88)
+
 
 ## Q2) Boolean Algebra/K-Map Simplificaiton
 ### K-Map Simplification
@@ -98,5 +101,6 @@ section .data
   oddMsg db "odd number", 0xA
   oddLen equ $ - oddMsg
 ```
-
+### Terminal Output
+![image](https://github.com/user-attachments/assets/0970f0f4-1b02-4ee9-898e-80fd764732fe)
 
