@@ -49,13 +49,13 @@ section .data
 ### GDB Registers
 ![MidtermQ1GDB](https://github.com/user-attachments/assets/bcfb7e52-6f12-4ce8-83b3-493a15a45972)
 
-## Q2)
+## Q2) Boolean Algebra/K-Map Simplificaiton
 ### K-Map Simplification
 ![IMG_0024](https://github.com/user-attachments/assets/3c1e1951-e93a-4cd7-a7e9-3e87ea3b0290)
 Simplified: a + b
 
 
-## Q3)
+## Q3) Even/Odd Program
 ### Design 
 ![IMG_0023](https://github.com/user-attachments/assets/57fff7c2-ae22-413a-9ece-b21bc54563ce)
 ### Code
