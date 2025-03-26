@@ -1,7 +1,7 @@
 # Midterm
 
 ## Q1) Arithmetic Code
-
+### Code
 ```assembly
 section .text
   global _start
@@ -44,19 +44,21 @@ section .data
   var2 dd 25
   var3 dd 30
 ```
-
+### Register Table
 ![IMG_0022](https://github.com/user-attachments/assets/fdd330ed-ff79-4892-b076-03cc9787c8da)
+### GDB Registers
 ![MidtermQ1GDB](https://github.com/user-attachments/assets/bcfb7e52-6f12-4ce8-83b3-493a15a45972)
 
 ## Q2)
-
+### K-Map Simplification
 ![IMG_0024](https://github.com/user-attachments/assets/3c1e1951-e93a-4cd7-a7e9-3e87ea3b0290)
+Simplified: a + b
 
 
 ## Q3)
-
+### Design 
 ![IMG_0023](https://github.com/user-attachments/assets/57fff7c2-ae22-413a-9ece-b21bc54563ce)
-
+### Code
 ```assembly
 section .text
   global _start
