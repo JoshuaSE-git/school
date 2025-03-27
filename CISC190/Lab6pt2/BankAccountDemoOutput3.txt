@@ -1,0 +1,12 @@
+Press 1 to use console or 2 to use GUI: 1
+What is your starting balance: $99
+What is your interest rate? (ie enter 3.5 for 3.5%): 3.8
+How many months do you want to calculate?: 1
+===============================
+Enter Month 1 deposits: $99
+Enter Month 1 withdraws: $345
+
+Ending balance: $-147.00
+Total deposits: $99.00
+Total withdraw: $345.00
+Total interest: $0.00
