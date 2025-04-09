@@ -62,3 +62,14 @@ var2:
 var3:
   .word 3
 ```
+
+## Differences between x86 and ARM architecture.
+
+x86 and ARM are the two most widely used CPU architectures in the world today.  The x86 architecture, known for its rich instruction set and fast computing speeds, is commonly used in personal computers and servers.  On the flip side, the ARM architecture dominates the mobile, embedded, and IoT sectors due to it's focus on efficient power consumption and simple instructions.  The difference between these two architectures comes down to their guiding philosphies, and can be observed in their respective instruction set architectures.
+
+The x86 processors can be classified as a "complex instruction set computer", or CISC for short.  This is because many of its instructions combine multiple calculations and operations into one single instruction.  For example, moving data from main memory to registers can be achieved using a single instruction in x86, where as other non-CISC ISA's often require two or more instructions to achieve the same result.  These powerful instructions allow for ease of development as well as a reduced instruction count, which can lead to more efficient memory transfer and faster execution speeds.  Overall these factors give x86 processors the reputation of being highly performant, which is why they're widely used in large servers as well as desktop computers.  This performance comes at a cost of 
+
+
+
+
+
