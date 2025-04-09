@@ -1,3 +1,34 @@
+# H3 - Assembly Language in ARM
+
+## Task
+- Convert x86 asm to it's 32 bit ARM equivalent.
+- Explore the differences between x86 and ARM architectures.
+
+### Original program (x86)
+```assembly
+ section .text
+     global _start
+ ​
+ _start:
+     mov eax,[var1]
+     add eax,[var2]
+     mov dl,[var3]
+     mul dl
+     mov [var4],eax
+     
+     mov eax,1
+     int 0x80
+ ​
+ section .data
+     var1 DD 5 ; var1 is assigned 5
+     var2 DD 2 ; var2 is assigned 2
+     var3 DD 3 ; var3 is assigned 3
+     
+ segment .bss
+     var4 resb 1
+```
+
+### Converted program (ARM)
 ```assembly
 .section .text
   .global _start
