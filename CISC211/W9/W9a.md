@@ -70,3 +70,6 @@ section .data
   space db 0xa
 
 ```
+
+![image](https://github.com/user-attachments/assets/bb77a3ff-7312-430d-bddf-f207e68eacce)
+
