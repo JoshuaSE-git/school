@@ -63,6 +63,10 @@ var3:
   .word 3
 ```
 
+## Video Link
+
+https://youtu.be/EjcOqTCCXPU
+
 ## Differences between x86 and ARM architecture.
 
 x86 and ARM are the two most widely used CPU architectures in the world today.  The x86 architecture, known for its rich instruction set and fast computing speeds, is commonly used in personal computers and servers.  On the flip side, the ARM architecture dominates the mobile, embedded, and IoT sectors due to its focus on efficient power consumption and simple instructions.  The difference between these two architectures comes down to their guiding philosophies, and can be observed in their respective instruction set architectures.
