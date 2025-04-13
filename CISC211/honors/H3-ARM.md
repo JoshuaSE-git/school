@@ -71,6 +71,9 @@ The x86 processors can be classified as a "complex instruction set computer", or
 
 ARM processors are classified as "reduced instruction set computers", also referred to as RISC.  RISC processor instructions represent only a single operation, each using a relatively low amount of power compared to CISC instructions.  This makes the assembly language programmer’s job more complex, but simplifies the processor’s job.  With RISC processors and advanced RISC machines, complex operations are performed by running multiple instructions.  For example, in order to move data from main memory to registers, you must first load its memory address into one register, then use dereferencing to load the actual value into a separate register.  In contrast, this same operation is simplified to one step in x86 asm at the cost of higher power costs.
 
+## CPU Emulator
+
+https://cpulator.01xz.net/?sys=arm-de1soc
 
 
 
