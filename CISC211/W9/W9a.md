@@ -34,7 +34,7 @@ pushNum:                 ;push individual digits to stack, then pop and print
 
   jmp continue           ;go to loop logic
 
-printNum:           ;print value inside printVar
+printNum:                ;print value inside printVar
   mov eax, 4
   mov ebx, 1
   mov ecx, printVar 
@@ -42,15 +42,15 @@ printNum:           ;print value inside printVar
   int 0x80
   ret
 
-linefeed:           ;print linefeed using space variable (0xa)
+linefeed:                ;print linefeed using space variable (0xa)
   mov eax, 4
   mov ebx, 1
-  mov ecx, space    ;0xa
+  mov ecx, space         ;0xa
   mov edx, 1
   int 0x80
   ret
 
-continue:          ;add two to val, if val > 20 then exit, else continue loop
+continue:                ;add two to val, if val > 20 then exit, else continue loop
   mov eax, [val]
   add eax, 2
   cmp eax, 20
@@ -58,7 +58,7 @@ continue:          ;add two to val, if val > 20 then exit, else continue loop
   mov [val], eax
   jmp _start
 
-exit:              ;exit program
+exit:                    ;exit program
   mov eax, 1
   int 0x80
 
