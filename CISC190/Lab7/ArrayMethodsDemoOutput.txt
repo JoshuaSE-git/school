@@ -1,0 +1,11 @@
+Lab7 Pt1 - Let's get ready to rumble :-)
+========================================
+myArray[] has 8 elements
+The sum of all elements in myArray[] is: 54
+The avg of all elements in myArray[] is: 6.75
+The largest number in myArray[] is: 9
+The index of the largest number in myArray[] is: 5
+The last (or right most) index of 8 is: 6
+The last (or right most) index of 2 is: -1
+8s were located in the following indices {1,2,6}
+myArray[] and copyOfMyArray[] are equal: true
