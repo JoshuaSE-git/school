@@ -1,1 +1,12 @@
-*.exe
+# Ignore everything by default
+*
+
+# Except source code and documentation
+!*.asm
+!*.s
+!*.md
+!*.pdf
+!*.txt
+
+# Also keep this .gitignore file
+!.gitignore
