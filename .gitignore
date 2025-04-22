@@ -8,3 +8,4 @@
 **/sandbox/
 **/*.o
 **/run.sh
+*.class
