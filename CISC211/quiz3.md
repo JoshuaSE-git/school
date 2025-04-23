@@ -77,3 +77,8 @@ section .data
   factNum dd 6
   space dd 0xA
 ```
+
+## Output
+6! = 720
+![image](https://github.com/user-attachments/assets/dbec8003-b672-4659-96bb-214d2930af72)
+
