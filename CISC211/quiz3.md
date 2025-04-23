@@ -1,20 +1,25 @@
+# Quiz 3
+
+## Task
+Calculate factorial and display
+
 ```assembly
 section .text
   global _start
-
-_start:
+ 
+_start:                ;initialize values
   mov eax, 1
   mov ebx, 1 
-  mov ecx, [factNum]
+  mov ecx, [factNum]   ;factorial number
 
-factLoop:
+factLoop:              ;loop for calculating factorial
   mul ebx
   inc ebx
 
   loop factLoop
   jmp stackLoop
 
-stackLoop:
+stackLoop:             ;loop for pushing digits to stack
   mov ebx, 10
   xor edx, edx
   div ebx
@@ -24,7 +29,7 @@ stackLoop:
   push eax
   jmp displayNum
 
-displayNum:
+displayNum:            ;pop digits and display
   pop eax
   add eax, 48
   mov [printVar], eax
@@ -58,7 +63,7 @@ displayNum:
   call linefeed
   call exit
 
-linefeed:
+linefeed:                      ;linefeed
   mov eax, 4
   mov ebx, 1
   mov ecx, space
