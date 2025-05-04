@@ -1,0 +1,23 @@
+Enter Room Name: Master Room
+Enter room length: 8.3
+Enter room width: 10.5
+Enter cost per square foot: 6.97
+
+Room Name: Master Room
+Length: 8.3
+Width: 10.5
+Area: 87.15
+The cost per sq ft is: $6.97
+The total cost is: $607.44
+
+Enter Room Name: Living Room
+Enter room length: 12.4
+Enter room width: 15.6
+Enter cost per square foot: 9.76
+
+Room Name: Living Room
+Length: 12.4
+Width: 15.6
+Area: 193.44
+The cost per sq ft is: $9.76
+The total cost is: $1,887.97

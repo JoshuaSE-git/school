@@ -1,12 +1,16 @@
-# Ignore everything by default
+
+# Ignore everything
 *
 
-# Except source code and documentation
+# Allow directories to be traversed
+!*/
+
+# Allow specific file types
 !*.asm
 !*.s
 !*.md
 !*.pdf
 !*.txt
 
-# Also keep this .gitignore file
+# Always track this file
 !.gitignore
