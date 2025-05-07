@@ -1,10 +1,9 @@
 # Quiz 4
 
 ## Solution
-x = 25
-y = 183
-z = 93
-x+y+z = 301
+(x + y + z) = result
+(25 + 183 + 93) = 301
+
 ```assembly
 section .text
   global _start
