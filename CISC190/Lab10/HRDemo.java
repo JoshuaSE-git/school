@@ -1,3 +1,10 @@
+/**
+ * Application to demo Person, Employee, Adjunct, and FullTime classes.
+ *
+ * @author Joshua Emralino, jemralino@student.sdccd.edu
+ * @version v1.0
+ * @since 5/15/2025 - (v1.0 Joshua Emralino)
+ */
 public class HRDemo {
 
   public static void main(String[] args) {
@@ -23,6 +30,11 @@ public class HRDemo {
     printStaff(staff2);
   }
 
+  /**
+   * Takes in array of Employee instances and prints each element.
+   *
+   * @param staff array of Employee instances
+   */
   private static void printStaff(Employee[] staff) {
     for (int i = 0; i < staff.length; i++) {
       System.out.printf("Employee %d\n", i + 1);

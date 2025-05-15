@@ -1,0 +1,1 @@
+(time ./run.sh counter_func) 2>&1 | tee >> counter_func.txt
