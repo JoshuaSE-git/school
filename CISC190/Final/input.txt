@@ -1,0 +1,5 @@
+Enter the path to the registrations.csv file (ie /tmp/registration.csv):
+/tmp/registration.csv
+Enter the path where output.txt should be saved (ie /tmp/output.txt):
+/tmp/output.txt
+The output file can be found at: /tmp/output.txt

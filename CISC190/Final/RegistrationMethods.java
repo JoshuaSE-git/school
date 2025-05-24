@@ -64,8 +64,8 @@ public class RegistrationMethods {
         while (fileScanner.hasNextLine()) {
             String[] tokens = fileScanner.nextLine().split(",");
             inArray[i] = new CarOwner(
-                    tokens[0],
                     tokens[1],
+                    tokens[0],
                     tokens[2],
                     Integer.parseInt(tokens[3]),
                     Integer.parseInt(tokens[4])
