@@ -23,9 +23,9 @@ _counter:                               ;counter function
 
   mov [currentCounter], eax             ;initialize counter (starts at 20,000)
 
-  jmp outputLoop
+  jmp output
 
-outputLoop:                             ;outer loop for writing counter to file
+output:                                 ;writing a number to file
   mov eax, [currentCounter]             ;move current counter val to eax
   xor ecx, ecx                          ;clear ecx
   jmp pushLoop                          ;jump to inner pushLoop
@@ -66,9 +66,9 @@ writeLoop:                              ;writing individual digits to file (inne
   mov edx, 1
   int 0x80
 
-  jmp continueOutputLoop                ;inner loops are done, jump back to outer loop logic
+  jmp continueOutput                    ;writing number to file is done
 
-continueOutputLoop:                     ;continue outer loop logic
+continueOutput:                
   mov eax, [currentCounter]
   dec eax
   mov [currentCounter], eax
