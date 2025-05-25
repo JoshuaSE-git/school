@@ -244,3 +244,9 @@ section .data
   filename db "counter_rec.txt", 0h
   newLine db 0xA
 ```
+
+## Discussion
+
+## Flowchart
+![image](https://github.com/user-attachments/assets/9e66c456-a4b2-4f99-b883-9b1b1293fec0)
+
