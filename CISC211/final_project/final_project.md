@@ -26,9 +26,9 @@ Use recursion to generate the same counter which you did above. [Check what is r
 
 ## Solutions
 
-### counter_func.asm (non-recursive)
+## counter_func.asm (non-recursive)
 
-#### Time command
+### Time command
 
 Use this command to append timer to end of output file
 
