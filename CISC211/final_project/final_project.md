@@ -244,6 +244,23 @@ section .data
   filename db "counter_rec.txt", 0h
   newLine db 0xA
 ```
+## Comparison
+
+counter_func.asm
+
+```
+real	0m0.151s
+user	0m0.031s
+sys	0m0.121s
+```
+
+counter_rec.asm (0.015s slower)
+
+```
+real	0m0.166s
+user	0m0.047s
+sys	0m0.119s
+```
 
 ## Discussion
 
