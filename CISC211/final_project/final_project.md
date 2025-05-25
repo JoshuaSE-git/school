@@ -254,15 +254,19 @@ user	0m0.031s
 sys	0m0.121s
 ```
 
-counter_rec.asm
+counter_rec.asm (52% slower)
 
 ```
-real	0m0.166s   (0.015s slower) ~ 10% slower
-user	0m0.047s
+real	0m0.166s   
+user	0m0.047s ~ 52% slower
 sys	0m0.119s
 ```
 
 ## Discussion
+
+When comparing the difference in results between my loop and recursion variations, we should use the "user" time as our metric.  The user time reflects the amount of CPU time spent by the program when executing user-level instructions, which is exactly what we should measure if we want to compare the two.  In contrast, both the real and system metrics factor in time spent executing system-level instructions like write, open, close, etc, which have nothing to do with recursion or loops.  Since both of my programs perform mostly system-level instructions, a majority of the "real" time will be occupied by systesm calls.
+
+When comparing the user time, the recursion variation is about 52% slower which is expected.  The difference in speed comes from the numerious stack frames created by the recursion function.  Every time we call _counter with a decremented argument, we introdouce a new stack frame, which includes allocating space, copying arguments, and storing return addresses.  By comparison, the looping variation only generates a single stackframe and lets the loop handle decrementing the counter, this requires less operations per iteration.
 
 ## Flowchart
 ![image](https://github.com/user-attachments/assets/38066b2e-d2a2-4cd5-b55e-afb4979cd41f)
