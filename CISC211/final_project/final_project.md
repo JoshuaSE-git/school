@@ -63,7 +63,7 @@ _counter:                               ;counter function
 
   jmp outputLoop
 
-outputLoop:                             ;outer loop for writing counter to file
+outputLoop:                             ;starting point for counter loop
   mov eax, [currentCounter]             ;move current counter val to eax
   xor ecx, ecx                          ;clear ecx
   jmp pushLoop                          ;jump to inner pushLoop
