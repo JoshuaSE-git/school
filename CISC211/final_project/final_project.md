@@ -45,7 +45,7 @@ _start:
   mov eax, 1
   int 0x80
 
-_counter:                               ;counter function (prints single value instead of looping through counter)
+_counter:                               ;counter function
   push ebp                              ;initialize stack frame
   mov ebp, esp
   sub esp, 4
@@ -161,7 +161,7 @@ _start:
   mov eax, 1
   int 0x80
 
-_counter:                               ;counter function
+_counter:                               ;counter function (prints single value instead of looping through counter)
   push ebp                              ;initialize stack frame
   mov ebp, esp
   sub esp, 4
