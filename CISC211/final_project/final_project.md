@@ -257,7 +257,7 @@ sys	0m0.121s
 counter_rec.asm
 
 ```
-real	0m0.166s   (0.015s slower)
+real	0m0.166s   (0.015s slower) ~ 10% slower
 user	0m0.047s
 sys	0m0.119s
 ```
