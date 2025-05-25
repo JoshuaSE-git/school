@@ -24,8 +24,6 @@ Use recursion to generate the same counter which you did above. [Check what is r
 - There should be two text files for this task. counter_fun.txt and counter_rec.txt
 - Each file should have a time command output and a counter.
 
-## Solutions
-
 ## counter_func.asm (non-recursive)
 
 ### Time command
@@ -136,9 +134,9 @@ section .data
   newLine db 0xA
 ```
 
-### counter_rec.asm (recursive)
+## counter_rec.asm (recursive)
 
-#### Time command
+### Time command
 
 Use this command to append timer to end of output file
 
