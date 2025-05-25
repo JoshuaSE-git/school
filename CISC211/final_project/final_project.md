@@ -28,6 +28,14 @@ Use recursion to generate the same counter which you did above. [Check what is r
 
 ### counter_func.asm (non-recursive)
 
+#### Time command
+
+Use this command to append timer to end of output file
+
+```
+(time ./run.sh counter_func) 2>&1 | tee >> counter_func.txt
+```
+
 ```assembly
 section .text
   global _start
@@ -129,6 +137,14 @@ section .data
 ```
 
 ### counter_rec.asm (recursive)
+
+#### Time command
+
+Use this command to append timer to end of output file
+
+```
+(time ./run.sh counter_rec) 2>&1 | tee >> counter_rec.txt
+```
 
 ```assembly
 section .text
