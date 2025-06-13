@@ -1,0 +1,5 @@
+language = "cpp"
+run = "cd lab_code && ./ApexLab"
+entrypoint = "testbench.cpp"
+hidden = ["main", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
+compile = "cd lab_code && cmake CMakeLists.txt && make"
